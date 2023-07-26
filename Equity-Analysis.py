@@ -1,15 +1,10 @@
 '''
-Notes:
-- A SimFin subscription and API is required to use this tool
-- To get a SimFin subscription, please purchase from: https://www.simfin.com/en/
-- Once you have a subscription, please enter your key in the following line of code:
-    - sf.set_api_key('API KEY HERE')
-
-Purpose:
-- Simply enter a ticker to:
+Purpose
+Simply enter a ticker to:
 - Output relevant statistical tables and supporting visuals
 - Perform modeling and quick calculations
 '''
+
 import simfin as sf
 import pandas as pd
 import yfinance as yf
@@ -440,7 +435,6 @@ class Tables:
         print(df)
 
 
-
         # To Do
         # s&p correlation coeff.: https://www.stockopedia.com/learn/charts-technical-analysis/correlation-coefficient-463013/ (save for end once dfs are merged)
 
@@ -450,7 +444,6 @@ class Tables:
         # standard dev: https://www.stockopedia.com/learn/charts-technical-analysis/standard-deviation-463003/     
         # bollinger bands: https://www.stockopedia.com/learn/charts-technical-analysis/bollinger-bands-462688/
         # on-balance volume: https://blog.elearnmarkets.com/volume-indicator/        
-
 
         return df
 
